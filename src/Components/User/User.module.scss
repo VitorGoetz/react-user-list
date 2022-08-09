@@ -1,0 +1,39 @@
+.user {
+    background-color: rgb(236, 236, 236);
+    width: 100%;
+    margin: 2rem 0;
+    padding: 1rem;
+    border-radius: 10px 0px;
+    box-shadow: 0px 3px 10px black;
+    cursor: pointer;
+    top: 100px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.user h4{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.user p{
+    color: rgb(73, 73, 73);
+    margin-left: 3rem;
+}
+
+
+
+.user:after {
+    position: absolute;
+    content: '';
+    right: 0;
+    top: 0;
+}
+ 
+.user:hover:after {
+
+    transition-duration: 1s;
+    border-bottom: 30px solid rgb(0, 0, 0);
+    border-right: 30px solid rgb(255, 255, 255);
+}
