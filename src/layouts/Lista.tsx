@@ -4,7 +4,6 @@ import styles from './Lista.module.scss';
 import User from '../Components/User/User';
 import IUser from '../interfaces/IUser';
 
-
 export default function Lista() {
 
     const [users, setUsers] = useState<IUser[]>([]);
